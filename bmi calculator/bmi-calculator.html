@@ -9,14 +9,20 @@
 <body>
     <p class="bmi-header"> BMI RECHNER</p>
     <div class="container">
-        <p class="bmi-notice">Größe (cm)</p>
-        <input class="bmi-input" type="text">
+
+        <p class="bmi-notice">Größe (m)</p>
+        <input class="bmi-input-height" type="text">
+
         <p class="bmi-notice">Gewicht (kg)</p>
-        <input class="bmi-input" type="text">
-        <button class="calculation-button">
+        <input class="bmi-input-weight" type="text">
+
+        <button onclick="
+          calculateBMI()
+        " class="calculation-button">
           BMI Berechnen!
         </button>
     </div>
+    <script src="/bmi calculator/scripts/bmi.js"></script>
 </body>
 
 </html>
