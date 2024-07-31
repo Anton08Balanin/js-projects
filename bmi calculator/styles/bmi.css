@@ -16,13 +16,8 @@
     box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.3);
 }
 
-.bmi-input {
-    width: 400px;
-    padding: 7px;
-    display: block;
-}
-
 .calculation-button {
+    display: block;
     background-color: rgb(71, 166, 255);
     margin-top: 20px;
     color: white;
@@ -35,4 +30,11 @@
 
 .calculation-button:hover {
     background-color: rgb(16, 132, 241);
+}
+
+.bmi-div {
+    margin-top: 15px;
+    background-color: rgb(36, 162, 201);
+    color: white;
+    padding: 15px;
 }

@@ -19,6 +19,8 @@ function calculateBMI() {
     }
 
     document.querySelector('.js-div')
-        .innerHTML = `Ihr BMI ist ${bmi}.
+        .innerHTML = `Ihr BMI ist ${bmi.toFixed(1)}.
       Sie haben ${result}`
+    document.querySelector('.js-div')
+        .classList.add('bmi-div')
 }
