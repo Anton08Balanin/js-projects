@@ -1,7 +1,7 @@
 const todoList = []
 
 function renderTodoList() {
-    const todoListHTML = ''
+    let todoListHTML = ''
 
     for (let i = 0; i < todoList.length; i++) {
         const todoListObject = todoList[i];
@@ -11,7 +11,10 @@ function renderTodoList() {
         const html = `
       <div>${todo}</div>
       <div>${time}</div>
-      <button>Delete</button>
+      <button 
+
+      class="delete-button">
+      Delete</button>
     `
         todoListHTML += html
     }

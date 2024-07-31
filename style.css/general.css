@@ -10,3 +10,11 @@ input {
     border: solid;
     border-width: 1px;
 }
+
+button {
+    width: 90px;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}

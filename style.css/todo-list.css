@@ -13,6 +13,7 @@
     display: grid;
     grid-template-columns: 200px 130px 90px;
     column-gap: 10px;
+    margin-bottom: 30px;
 }
 
 .add-button {
@@ -20,4 +21,24 @@
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+.div-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.div-grid {
+    display: grid;
+    grid-template-columns: 200px 130px 90px;
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    margin-left: -5px;
 }
