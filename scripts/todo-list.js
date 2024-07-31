@@ -12,10 +12,12 @@ function renderTodoList() {
       <div>${todo}</div>
       <div>${time}</div>
       <button 
-
+      onclick="todoList.splice(${i}, 1)
+      renderTodoList()"
       class="delete-button">
       Delete</button>
     `
+
         todoListHTML += html
     }
 
