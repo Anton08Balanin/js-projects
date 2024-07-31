@@ -1,0 +1,23 @@
+.todo-list-header {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-list-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-list-grid {
+    display: grid;
+    grid-template-columns: 200px 130px 90px;
+    column-gap: 10px;
+}
+
+.add-button {
+    background-color: rgb(20, 168, 20);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
