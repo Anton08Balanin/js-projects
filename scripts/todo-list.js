@@ -1,6 +1,24 @@
 const todoList = []
 
+function renderTodoList() {
+    const todoListHTML = ''
 
+    for (let i = 0; i < todoList.length; i++) {
+        const todoListObject = todoList[i];
+        const todo = todoListObject.todo
+        const time = todoListObject.time
+
+        const html = `
+      <div>${todo}</div>
+      <div>${time}</div>
+      <button>Delete</button>
+    `
+        todoListHTML += html
+    }
+
+    document.querySelector('.js-div')
+        .innerHTML = todoListHTML
+}
 
 function addTodo() {
     const inputElement = document.querySelector('.todo-input')
@@ -10,7 +28,9 @@ function addTodo() {
 
     todoList.push({
         todo: inputValue,
-        time: time
+        time
     })
     console.log(todoList)
+
+    renderTodoList();
 }
