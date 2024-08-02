@@ -12,7 +12,7 @@ function calculateBMI() {
 
     if (bmi.toFixed(1) < 18.5 && bmi.toFixed(1) > 0) {
         result = 'Untergewicht'
-    } else if (bmi.toFixed(1) > 18.5 && bmi.toFixed(1) < 24.9) {
+    } else if (bmi.toFixed(1) > 18.5 && bmi.tsoFixed(1) < 24.9) {
         result = 'Normalgewicht'
     } else {
         result = 'Übergewicht'
