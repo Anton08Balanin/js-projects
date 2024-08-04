@@ -4,7 +4,8 @@
     justify-content: center;
 }
 
-.todo-list-flex {
+.todo-list-flex,
+.div-flex {
     display: flex;
     justify-content: center;
 }
@@ -21,11 +22,6 @@
     color: white;
     border: none;
     border-radius: 5px;
-}
-
-.div-flex {
-    display: flex;
-    justify-content: center;
 }
 
 .div-grid {
